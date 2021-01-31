@@ -177,8 +177,8 @@
 }
 
 @media (min-width: 992px) {
-  .interests {
-    margin-top: -200px;
+  .languages {
+    margin-top: -255px;
   }
 }
 
@@ -220,4 +220,8 @@
 @keyframes animateBar {
   0% {transform: translateX(-100%);}
   100% {transform: translateX(0);}
+}
+
+.title-size {
+  font-size: 15px;
 }
