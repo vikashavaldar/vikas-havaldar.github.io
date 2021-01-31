@@ -149,11 +149,11 @@
 }
 
 .dark-background {
-  background-color: #ADD8E6;
+  background-color: #a5a5af;
 }
 
 .light-background {
-  background-color: #E0FFFF;
+  background-color: #c5c1c0;
 }
 
 @media (min-width: 992px) {
@@ -188,6 +188,10 @@
   }
 }
 
+.about-me {
+  background-color:  #687a8f;
+}
+
 .resize-img{
   width: 300px;
   height:318px;
@@ -208,7 +212,7 @@
 }
 
 .progress .progress-bar, .progress .progress-bar.progress-bar-default {
-    background-color: #17a2b8 ;
+    background-color: #687a8f ;
 }
 .progress  .progress-bar{
     animation-name: animateBar;
@@ -265,4 +269,22 @@
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+.title-head {
+  font-family: "Copperplate",fantasy;
+}
+
+.display-5 {
+  font-family: "Jazz LET", fantasy;
+  color: darkslategrey;
+}
+
+.h3 {
+  font-family: "Trattatello", fantasy;
+  color: gray !important;
+}
+
+.nav-modbar{
+  background-color: black;
 }
