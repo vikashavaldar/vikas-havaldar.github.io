@@ -225,3 +225,15 @@
 .title-size {
   font-size: 15px;
 }
+
+.row:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.col-xs-3:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.background-green {
+  background-color: #BAD0B9;
+}
